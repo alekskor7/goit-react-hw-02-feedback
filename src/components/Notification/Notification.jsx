@@ -5,9 +5,7 @@ class Notification extends Component {
   render() {
     const message = this.props.message;
     return (
-      <>
-        <p>{message}</p>
-      </>
+      <p>{message}</p>
     );
   }
 }
